@@ -57,17 +57,17 @@ public class KookyListener implements Listener, PacketListener {
     public final DateFormat format = new SimpleDateFormat("hh:mm:ss");
     private final String errormsg = ChatColor.RED + "An internal error has occurred please report this to @ExtendObject";
     private Map<UUID, Runnable> toExecute = new HashMap<>();
-    private IKookyBungee bungee;
+    private KookyBungee bungee;
     private String line1 = ChatColor.AQUA + ChatColor.BOLD.toString() + "BubbleNetwork" + spacer;
     private String line2 = ChatColor.BLUE + " Come and join the fun!";
     private List<String> sample = Arrays.asList(ChatColor.AQUA + ChatColor.UNDERLINE.toString() + "BubbleNetwork", "", ChatColor.BLUE + "Site " + ChatColor.GRAY + ChatColor.ITALIC.toString() + "thebubblenetwork.com");
     private List<String> requestqueue = new ArrayList<>();
 
-    public KookyListener(IKookyBungee bungee) {
+    public KookyListener(KookyBungee bungee) {
         this.bungee = bungee;
     }
 
-    protected IKookyBungee getBungee() {
+    protected KookyBungee getBungee() {
         return bungee;
     }
 

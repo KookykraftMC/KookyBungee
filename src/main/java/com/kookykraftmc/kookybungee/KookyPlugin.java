@@ -4,7 +4,7 @@ import net.md_5.bungee.api.plugin.Plugin;
 
 public class KookyPlugin extends Plugin {
 
-    private IKookyBungee kookyBungee;
+    private KookyBungee kookyBungee;
 
     public KookyPlugin() {
         super();
