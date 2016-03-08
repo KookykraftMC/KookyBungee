@@ -1,0 +1,4 @@
+name: KookyBungee
+version: 1.0
+depend: [XServerProxy]
+main: com.kookykraftmc.kookybungee.KookyPlugin
